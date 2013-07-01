@@ -9,8 +9,18 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="splash_background"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\drawable-hdpi\splash_background.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="splash_background"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\drawable-mdpi\splash_background.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -26,6 +36,11 @@
             <file
                 name="activity_main"
                 path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="splash"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\splash.xml"
                 qualifiers=""
                 type="layout" />
             <file

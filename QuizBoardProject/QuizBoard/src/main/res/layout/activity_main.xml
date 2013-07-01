@@ -5,10 +5,10 @@
     android:layout_height="fill_parent"
 >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world"
-     />
-
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:id="@+id/bSettings"
+            android:layout_gravity="right|center_vertical"/>
 </LinearLayout>
