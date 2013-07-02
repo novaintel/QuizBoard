@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+            android:title="Edit Name"
+            android:key="name"
+            android:summary="Enter Your Name">
+    </EditTextPreference>
+
+    <CheckBoxPreference
+            android:title="Participation"
+            android:defaultValue="true"
+            android:key="checkbox"
+            android:summary="Do you wish to appear on the leader board?"/>
+    <ListPreference
+            android:title="Select your major"
+            android:key="list"
+            android:summary="Select the department of your major."
+            android:entries="@array/list"
+            android:entryValues="@array/lValues"
+            ></ListPreference>
+
+
+</PreferenceScreen>

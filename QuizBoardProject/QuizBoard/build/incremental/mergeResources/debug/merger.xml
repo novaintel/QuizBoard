@@ -49,6 +49,50 @@
                 qualifiers=""
                 type="menu" />
             <file
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\array.xml"
+                qualifiers="" >
+                <string-array name="list" >
+                    <item>
+English Department
+                    </item>
+                    <item>
+Physics Department
+                    </item>
+                    <item>
+Mathematics Department
+                    </item>
+                    <item>
+Chemistry Department
+                    </item>
+                    <item>
+Electrical Engineering Department
+                    </item>
+                    <item>
+Computer Science Department
+                    </item>
+                </string-array>
+                <string-array name="lValues" >
+                    <item>
+english
+                    </item>
+                    <item>
+physics
+                    </item>
+                    <item>
+mathematics
+                    </item>
+                    <item>
+chemistry
+                    </item>
+                    <item>
+electrical_engineering
+                    </item>
+                    <item>
+computer_science
+                    </item>
+                </string-array>
+            </file>
+            <file
                 path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
@@ -119,6 +163,11 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="prefs"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\xml\prefs.xml"
+                qualifiers=""
+                type="xml" />
         </source>
         <source path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\res\rs\debug" />
     </dataSet>

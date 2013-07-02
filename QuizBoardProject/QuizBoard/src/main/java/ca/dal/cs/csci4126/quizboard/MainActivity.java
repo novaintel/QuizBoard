@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent openSettingsPoint =
-                       new Intent("ca.dal.cs.csci4126.quizboard.SETTINGS");
+                       new Intent("ca.dal.cs.csci4126.quizboard.PREFS");
                 startActivity(openSettingsPoint);
             }
         });
