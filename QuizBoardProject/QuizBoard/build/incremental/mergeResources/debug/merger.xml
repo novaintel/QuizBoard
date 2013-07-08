@@ -39,6 +39,11 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="prefs"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\prefs.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="splash"
                 path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\splash.xml"
                 qualifiers=""
@@ -48,6 +53,50 @@
                 path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\menu\main.xml"
                 qualifiers=""
                 type="menu" />
+            <file
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\array.xml"
+                qualifiers="" >
+                <string-array name="list" >
+                    <item>
+English
+                    </item>
+                    <item>
+Physics
+                    </item>
+                    <item>
+Mathematics
+                    </item>
+                    <item>
+Chemistry
+                    </item>
+                    <item>
+Electrical Engineering
+                    </item>
+                    <item>
+Computer Science
+                    </item>
+                </string-array>
+                <string-array name="lValues" >
+                    <item>
+english
+                    </item>
+                    <item>
+physics
+                    </item>
+                    <item>
+mathematics
+                    </item>
+                    <item>
+chemistry
+                    </item>
+                    <item>
+electrical_engineering
+                    </item>
+                    <item>
+computer_science
+                    </item>
+                </string-array>
+            </file>
             <file
                 path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\dimens.xml"
                 qualifiers="" >
@@ -64,6 +113,8 @@
                 <string name="app_name" >Quiz Board
                 </string>
                 <string name="hello_world" >Hello world!
+                </string>
+                <string name="selectMajorSpinner" >Select a Major
                 </string>
             </file>
             <file

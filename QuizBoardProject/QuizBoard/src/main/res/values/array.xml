@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list">
+        <item>English</item>
+        <item>Physics</item>
+        <item>Mathematics</item>
+        <item>Chemistry</item>
+        <item>Electrical Engineering</item>
+        <item>Computer Science</item>
+
+    </string-array>
+
+
+</resources>

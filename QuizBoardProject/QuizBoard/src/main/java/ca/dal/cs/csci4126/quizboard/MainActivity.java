@@ -20,18 +20,18 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent openSettingsPoint =
-                       new Intent("ca.dal.cs.csci4126.quizboard.SETTINGS");
+                       new Intent("ca.dal.cs.csci4126.quizboard.PREFS");
                 startActivity(openSettingsPoint);
             }
         });
     }
 
 
-    @Override
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
-    }
+    }*/
     
 }
