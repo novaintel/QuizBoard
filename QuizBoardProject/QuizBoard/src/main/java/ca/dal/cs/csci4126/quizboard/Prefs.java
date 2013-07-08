@@ -1,5 +1,6 @@
 package ca.dal.cs.csci4126.quizboard;
 
+<<<<<<< HEAD
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -75,5 +76,17 @@ public class Prefs extends Activity implements OnClickListener {
         leadBoardAppearNo.setChecked(prefAppearNo);
         selectMajor.setSelection(majorPos);
 
+=======
+import android.os.Bundle;
+import android.preference.PreferenceActivity;
+
+public class Prefs extends PreferenceActivity{
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
+        super.onCreate(savedInstanceState);
+        addPreferencesFromResource(R.xml.prefs);
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
     }
 }

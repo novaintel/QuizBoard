@@ -1,6 +1,7 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
+<<<<<<< HEAD
 1373037949547 492 b15efb39c685622f23da6b3554aecdb0c29638fb C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$layout.class
 1373037949551 544 95c08f0b7098a8a28a42e8f9ce9b3ae43aee2683 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$string.class
 1372773651967 861 83b5aee289abde08473966bc277a0fdc9f195b50 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\Splash.class
@@ -17,3 +18,22 @@
 1373037949546 881 ebef708e042837806524a12c8045e2cadd4b2447 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$id.class
 1373037949539 421 7ded7b8972ef70d1a4789fea4117d4ae2804a005 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$array.class
 1372773651918 1059 7ba6bef8a2f9cea920a583e5709f3ca42dd3aeb0 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\MainActivity$1.class
+=======
+1372766901445 463 77bfb68f8f0d66552e8b54774e6b093fbf2323f8 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$layout.class
+1372766901449 502 370db8981ecbf0451605da51e4fb016d83266081 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$string.class
+1372766901427 861 cf02139d5d43df63cc7d3d3621bc437b53247235 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\Splash.class
+1372766901425 1232 a9acc8099c5d0686d4fa5faa854472de89e92c4f C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\Splash$1.class
+1372766901447 418 2ba5921a671df96b3e447392f7ba0a2ea6ad2479 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$menu.class
+1372766901440 478 1ef71e70d035b9920f4fb01ccb518ed7bfe9b8f0 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$drawable.class
+1372766901396 1312 8a3836fcc74afb0e2f961b79a934284ee66c5f6f C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\MainActivity.class
+1372766901436 370 245574ce3620e8b1eff2a9e6d8ba05380effe9aa C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$attr.class
+1372766901458 365 69ad80ea26f74f5f87e970de4219858d390d3750 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\BuildConfig.class
+1372766901456 889 de890142519940930d1fea0fb4d65640f8256847 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R.class
+1372766901451 461 7842ea10cd8df22a4a4275f8665e06e77d806fd7 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$style.class
+1372766901408 545 36313bf5d6649d218eab8f1ae82d948ef5c5f8db C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\Prefs.class
+1372766901438 491 70efbd0375c39ec62974dddc2980e09e197078e2 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$dimen.class
+1372766901443 456 585d495dbc90d1b4e98f8285175af3c77147313a C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$id.class
+1372766901454 416 7c9e0e8ad19f1f4fda9e8d45a57fc768a110fc61 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$xml.class
+1372766901434 452 2b644492ed57b227b377c0c61458fe6e72aba341 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\R$array.class
+1372766901392 1059 7ba6bef8a2f9cea920a583e5709f3ca42dd3aeb0 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\classes\debug\ca\dal\cs\csci4126\quizboard\MainActivity$1.class
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc

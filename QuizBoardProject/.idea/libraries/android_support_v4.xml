@@ -7,6 +7,7 @@
       <root url="jar://$PROJECT_DIR$/QuizBoard/libs/android-support-v4.jar!/" />
       <root url="jar://$PROJECT_DIR$/QuizBoard/libs/android-support-v4.jar!/" />
       <root url="jar://$PROJECT_DIR$/QuizBoard/libs/android-support-v4.jar!/" />
+<<<<<<< HEAD
       <root url="jar://$PROJECT_DIR$/QuizBoard/libs/android-support-v4.jar!/" />
       <root url="jar://$PROJECT_DIR$/QuizBoard/libs/android-support-v4.jar!/" />
       <root url="jar://$PROJECT_DIR$/QuizBoard/libs/android-support-v4.jar!/" />
@@ -14,6 +15,8 @@
       <root url="jar://$PROJECT_DIR$/QuizBoard/libs/android-support-v4.jar!/" />
       <root url="jar://$PROJECT_DIR$/QuizBoard/libs/android-support-v4.jar!/" />
       <root url="jar://$PROJECT_DIR$/QuizBoard/libs/android-support-v4.jar!/" />
+=======
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
     </CLASSES>
     <JAVADOC />
     <SOURCES />

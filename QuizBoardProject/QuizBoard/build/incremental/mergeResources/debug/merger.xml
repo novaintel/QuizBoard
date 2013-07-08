@@ -58,6 +58,7 @@
                 qualifiers="" >
                 <string-array name="list" >
                     <item>
+<<<<<<< HEAD
 English
                     </item>
                     <item>
@@ -74,6 +75,24 @@ Electrical Engineering
                     </item>
                     <item>
 Computer Science
+=======
+English Department
+                    </item>
+                    <item>
+Physics Department
+                    </item>
+                    <item>
+Mathematics Department
+                    </item>
+                    <item>
+Chemistry Department
+                    </item>
+                    <item>
+Electrical Engineering Department
+                    </item>
+                    <item>
+Computer Science Department
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
                     </item>
                 </string-array>
                 <string-array name="lValues" >
@@ -170,6 +189,11 @@ computer_science
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="prefs"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\xml\prefs.xml"
+                qualifiers=""
+                type="xml" />
         </source>
         <source path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\build\res\rs\debug" />
     </dataSet>

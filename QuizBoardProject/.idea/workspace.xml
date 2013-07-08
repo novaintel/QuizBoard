@@ -23,14 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5316c893-f9d0-4394-8868-58e4b303574e" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/SubQuestionTypes.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuizBoard/src/main/res/layout/subQuestionTypes.xml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/Prefs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuizBoard/src/main/res/values/array.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuizBoard/src/main/res/xml/prefs.xml" />
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/QuizBoard/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/source/buildConfig/debug/ca/dal/cs/csci4126/quizboard/BuildConfig.java" afterPath="$PROJECT_DIR$/QuizBoard/build/source/buildConfig/debug/ca/dal/cs/csci4126/quizboard/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/MainActivity.java" afterPath="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/QuizBoard.iml" afterPath="$PROJECT_DIR$/QuizBoard/QuizBoard.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/source/r/debug/ca/dal/cs/csci4126/quizboard/R.java" afterPath="$PROJECT_DIR$/QuizBoard/build/source/r/debug/ca/dal/cs/csci4126/quizboard/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/QuizBoard/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build.gradle" afterPath="$PROJECT_DIR$/QuizBoard/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/QuizBoard/src/main/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/src/main/res/values-sw600dp/dimens.xml" afterPath="$PROJECT_DIR$/QuizBoard/src/main/res/values-sw600dp/dimens.xml" />
@@ -46,6 +53,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/src/main/res/values-v11/styles.xml" afterPath="$PROJECT_DIR$/QuizBoard/src/main/res/values-v11/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/src/main/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/QuizBoard/src/main/res/values-v14/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values/values.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-v14/values.xml" />
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QuizBoard.iws" />
@@ -64,7 +78,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -101,6 +114,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -113,7 +127,11 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="16" column="47" selection-start="353" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+=======
+            <state line="5" column="52" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
               <folding />
             </state>
           </provider>
@@ -122,18 +140,56 @@
       <file leaf-file-name="SubQuestionTypes.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/SubQuestionTypes.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="27" column="13" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.6933535" vertical-offset="0" max-vertical-offset="662">
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+=======
+            <state line="14" column="31" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="765">
+              <folding />
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="prefs.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/prefs.xml">
+          <provider editor-type-id="text-editor">
+            <state line="74" column="55" selection-start="2870" selection-end="2870" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="1938">
+=======
+      <file leaf-file-name="splash.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/splash.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="72" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+              <folding>
+                <element signature="e#421#439#0" expanded="true" />
+                <element signature="e#589#607#0" expanded="true" />
+                <element signature="e#955#973#0" expanded="true" />
+                <element signature="e#1329#1347#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prefs.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/prefs.xml">
-          <provider editor-type-id="text-editor">
-            <state line="74" column="55" selection-start="2870" selection-end="2870" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="1938">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="69" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
               <folding />
             </state>
           </provider>
@@ -142,10 +198,26 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="array.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/values/array.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="30" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="357">
+=======
+      <file leaf-file-name="prefs.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/xml/prefs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="818" selection-end="818" vertical-scroll-proportion="0.68104774" vertical-offset="0" max-vertical-offset="649">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/values/array.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="12" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
               <folding />
             </state>
           </provider>
@@ -153,8 +225,24 @@
       </file>
       <file leaf-file-name="Prefs.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/Prefs.java">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state line="69" column="82" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="1" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QuizBoard/build/manifests/debug/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="19" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="578">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
               <folding />
             </state>
           </provider>
@@ -209,11 +297,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/QuizBoard/build/res/all/debug/xml/pref_headers.xml" />
+        <option value="$PROJECT_DIR$/QuizBoard/build/res/all/debug/xml/pref_general.xml" />
+        <option value="$PROJECT_DIR$/QuizBoard/build/res/all/debug/xml/pref_data_sync.xml" />
+        <option value="$PROJECT_DIR$/QuizBoard/build/res/all/debug/xml/pref_notification.xml" />
+        <option value="$PROJECT_DIR$/QuizBoard/src/main/res/values/strings_activity_settings.xml" />
+        <option value="$PROJECT_DIR$/QuizBoard/src/main/res/xml/pref_headers.xml" />
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
         <option value="$PROJECT_DIR$/QuizBoard/src/main/res/xml/pref_general.xml" />
         <option value="$PROJECT_DIR$/QuizBoard/src/main/res/xml/pref_data_sync.xml" />
         <option value="$PROJECT_DIR$/QuizBoard/src/main/res/xml/pref_notification.xml" />
         <option value="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/QuizBoard/build/manifests/debug/AndroidManifest.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/QuizBoard/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/QuizBoard/src/main/res/xml/prefs.xml" />
         <option value="$PROJECT_DIR$/QuizBoard/src/main/res/layout/prefs2.xml" />
@@ -225,14 +323,20 @@
         <option value="$PROJECT_DIR$/QuizBoard/src/main/res/layout/prefs.xml" />
         <option value="$PROJECT_DIR$/QuizBoard/src/main/res/layout/subQuestionTypes.xml" />
         <option value="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/SubQuestionTypes.java" />
+=======
+        <option value="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/Prefs.java" />
+        <option value="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/MainActivity.java" />
+        <option value="$PROJECT_DIR$/QuizBoard/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/QuizBoard/src/main/res/values/array.xml" />
+        <option value="$PROJECT_DIR$/QuizBoard/src/main/res/xml/prefs.xml" />
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -261,6 +365,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -340,6 +445,39 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuizBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuizBoardProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuizBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -481,7 +619,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,7 +630,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/QuizBoardProject" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -502,6 +639,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -669,13 +807,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.74458873" order="5" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -689,11 +830,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1796875" sideWeight="0.74458873" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25541127" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37639198" sideWeight="0.77916193" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22083806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.7781385" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -760,7 +907,59 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="415" selection-end="424" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="340">
+=======
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/Splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/splash.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
+=======
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="19" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="697">
+          <folding>
+            <element signature="e#421#439#0" expanded="true" />
+            <element signature="e#589#607#0" expanded="true" />
+            <element signature="e#955#973#0" expanded="true" />
+            <element signature="e#1329#1347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuizBoard/build/manifests/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/values/styles.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/activity_main.xml">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="38" selection-start="415" selection-end="424" vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="340">
           <folding />
@@ -770,23 +969,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/menu/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/QuizBoard/build/manifests/debug/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="19" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="578">
+=======
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
           <folding />
         </state>
       </provider>
@@ -800,6 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/splash.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
@@ -818,6 +1010,9 @@
     <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-17/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3735" column="18" selection-start="145607" selection-end="145607" vertical-scroll-proportion="0.3323741" vertical-offset="61649" max-vertical-offset="311032">
+=======
+        <state line="24" column="19" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="578">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
           <folding />
         </state>
       </provider>
@@ -831,16 +1026,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QuizBoard/build/res/all/debug/layout/prefs.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="74" column="28" selection-start="2843" selection-end="2857" vertical-scroll-proportion="0.34736842" vertical-offset="1060" max-vertical-offset="1921" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/values/array.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="30" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+=======
+        <state line="14" column="31" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="714">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/prefs.xml">
       <provider editor-type-id="text-editor">
         <state line="74" column="55" selection-start="2870" selection-end="2870" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="1921">
@@ -854,6 +1054,11 @@
     <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/subQuestionTypes.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="48" selection-start="2372" selection-end="2387" vertical-scroll-proportion="0.62637365" vertical-offset="689" max-vertical-offset="1326">
+=======
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/layout/splash.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
           <folding />
         </state>
       </provider>
@@ -863,14 +1068,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/Prefs.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="69" column="82" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+=======
+        <state line="13" column="1" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="69" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="16" column="47" selection-start="353" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+=======
+        <state line="37" column="72" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding>
+            <element signature="e#421#439#0" expanded="true" />
+            <element signature="e#589#607#0" expanded="true" />
+            <element signature="e#955#973#0" expanded="true" />
+            <element signature="e#1329#1347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/values/array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="12" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/res/xml/prefs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="818" selection-end="818" vertical-scroll-proportion="0.68104774" vertical-offset="0" max-vertical-offset="649">
+>>>>>>> 5a3f6804d375a29f5245ac29068fce7fbefffbfc
           <folding />
         </state>
       </provider>
