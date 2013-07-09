@@ -55,6 +55,7 @@ public class Prefs extends Activity implements OnClickListener {
                 startActivity(openSubQuest);
                 break;
         }
+        //Don't want it to pop up when going to the custom questions page
         if(!message.equals(""))
              Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
