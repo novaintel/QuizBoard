@@ -1,0 +1,140 @@
+/* CSS Document */
+section, section div{
+	margin: 0;	
+}
+
+.modalDialog{
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.9);
+	z-index: 99999;
+	opacity: 1;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;	
+}
+
+.clear{
+	clear: both;
+}
+
+body{
+	padding: 0;
+	margin: auto auto;
+	width: 400px;
+	height: 400px;	
+	font: .8em Helvetica, sans-serif;
+	color: #444;
+}
+
+#logo_wrapper h1{
+	font: 2em Arial, Helvetica, sans-serif;
+	text-align:center;
+    text-shadow:0px 0px 1px #fff;
+    text-shadow:1px 1px 1px #000;	
+}
+
+.bg_style{
+	margin-top: 0px;
+	background: -webkit-gradient(linear, center top, center bottom, from(#d9d6d6), to(#f5f0f0));
+	background-image: linear-gradient(#d9d6d6, #f5f0f0);
+	border: 5px double #fff;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,0.4);
+}
+
+#console{
+	position: relative;	
+	top: 10px;
+	left: 320px;
+	width: 50px;
+	padding: 2px;
+	
+	
+}
+
+#console a{
+	text-decoration:none;
+	color:#fff;
+}
+
+form{
+	margin: 10px 20px 0 20px;
+	padding: 20px 0 5px 0;	
+	border: 1px ridge #d9d6d6;
+}
+
+form div{
+	width: 300px;
+	margin: 5px auto;
+}
+form label{
+	display: block;
+	width: 70px;
+	float: left;
+	padding: 5px 2px;
+}
+
+form input{
+	width: 200px;
+	padding: 3px;
+}
+
+form .inpt{
+	width: 200px;
+	padding: 3px;
+}
+
+form div span{
+	display:block;
+	width: 155px;
+	margin: 15px auto 1px auto;
+	padding: 4px;
+}
+
+.buttonz{
+	width: 60px;
+	border: 2px solid #fff;
+	margin: 0 3px;
+	background: -webkit-gradient(linear, center top, center bottom, from(#999), to(#666));
+	background-image: linear-gradient(#999, #666);
+	box-shadow: 0 0 4px 2px rgba(0,0,0,0.4);
+	color: #FFF;
+	font-weight: bold;
+	font: 1em Arial, Helvetica, sans-serif;
+    text-shadow:0px 0px 1px #fff;
+    text-shadow:1px 1px 1px #000;	
+	border-radius: 8px;
+}
+
+.buttonz:hover{
+	background: -webkit-gradient(linear, center top, center bottom, from(#3C3C3C), to(#505050));
+	background-image: linear-gradient(#3C3C3C, #505050);
+}
+
+footer{
+	margin: 0;
+	padding: 0;	
+	color:#fff;
+	background-color:#222;
+    font-weight:normal;
+    -moz-box-shadow:0px -1px 4px #000;
+    -webkit-box-shadow:0px -1px 4px #000;
+    box-shadow:0px -1px 4px #000;
+    text-shadow:0px 0px 1px #fff;
+    text-shadow:1px 1px 1px #000;
+}
+
+footer p{
+	padding: 5px;	
+}
+
+footer p{
+	color:#00C;
+	text-align: right	
+}
+
+
