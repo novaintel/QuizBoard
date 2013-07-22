@@ -13,22 +13,30 @@
         <activity android:label="@string/app_name" android:name="ca.dal.cs.csci4126.quizboard.MainActivity">
             <intent-filter>
                 <action android:name="ca.dal.cs.csci4126.quizboard.STARTINGPOINT"/>
+
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-
         <activity android:label="@string/app_name" android:name="ca.dal.cs.csci4126.quizboard.Prefs">
             <intent-filter>
                 <action android:name="ca.dal.cs.csci4126.quizboard.PREFS"/>
+
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-
         <activity android:label="@string/app_name" android:name="ca.dal.cs.csci4126.quizboard.SubQuestionTypes">
             <intent-filter>
                 <action android:name="ca.dal.cs.csci4126.quizboard.SUBQUEST"/>
+
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_login" android:name="ca.dal.cs.csci4126.quizboard.LoginActivity">
+            <intent-filter>
+                <action android:name="ca.dal.cs.csci4126.quizboard.LOGIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+           <!-- android:windowSoftInputMode="adjustResize|stateVisible" >-->
         </activity>
     </application>
 

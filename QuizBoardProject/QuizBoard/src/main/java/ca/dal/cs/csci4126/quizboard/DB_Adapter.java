@@ -16,6 +16,12 @@ public class DB_Adapter {
     private static final String DATABASE_NAME = "quiz_board";
 
     private static final String DATABASE_QUESTION_TABLE = "Question";
+    private static final String DATABASE_DEPARTMENTS_TABLE = "Departments";
+    private static final String DATABASE_STUDENT_TABLE = "Student";
+    private static final String DATABASE_FACULTY_TABLE = "Faculty";
+
+    public static final String KEY_bannerId = "banner_Number";
+    public static final String KEY_studentName = "student_name";
 
     public static final String KEY_quesId = "que_id";
     public static final String KEY_departmentId = "department_ID";
@@ -44,7 +50,7 @@ public class DB_Adapter {
                     + "department_name text not null);";
 
     private static final String DATABASE_CREATE_FACULTY =
-            "create table Departments (banner_Number text primary key UNIQUE, "
+            "create table Faculty (banner_Number text primary key UNIQUE, "
                     + "faculty_member_name text not null);";
 
     private static final String DATABASE_CREATE_STUDENT =
@@ -114,5 +120,28 @@ public class DB_Adapter {
         initialValues.put(KEY_choice4, solution4);
         initialValues.put(KEY_answer, answer);
         return db.insert(DATABASE_QUESTION_TABLE, null, initialValues);
+    }
+
+    //---deletes a particular question---
+    public boolean deleteQuestion(long questionId)
+    {
+        return db.delete(DATABASE_QUESTION_TABLE, KEY_question +
+                "=" + questionId, null) > 0;
+    }
+
+    //---deletes a particular student---
+    public boolean deleteStudent(String bannerNumber)
+    {
+        return db.delete(DATABASE_STUDENT_TABLE, KEY_bannerId +
+                "=" + bannerNumber, null) > 0;
+    }
+
+    public boolean updateStudent(String bannerNumber, String userName)
+    {
+        ContentValues args = new ContentValues();
+        args.put(KEY_bannerId, bannerNumber);
+        args.put(KEY_studentName, userName);
+        return db.update(DATABASE_STUDENT_TABLE, args,
+                KEY_bannerId + "=" + bannerNumber, null) > 0;
     }
 }

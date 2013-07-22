@@ -59,12 +59,34 @@
             android:layout_gravity="left|center_vertical"/>
 
     <EditText
-            android:id="@+id/pref_editText"
+            android:id="@+id/pref_editName"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/textView1"
             android:layout_below="@+id/textView1"
             android:hint="Name"
+            android:layout_marginTop="20dp"
+            android:ems="10" />
+
+    <TextView
+            android:id="@+id/pref_BannerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="28dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="Enter Your Dalhousie Banner Identification"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="left|center_vertical"/>
+
+    <EditText
+            android:id="@+id/pref_editBannerId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:hint="Banner ID"
+            android:password="true"
             android:layout_marginTop="20dp"
             android:ems="10" />
 

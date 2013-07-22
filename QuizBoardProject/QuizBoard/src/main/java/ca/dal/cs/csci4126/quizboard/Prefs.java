@@ -18,8 +18,10 @@ public class Prefs extends Activity implements OnClickListener {
     private RadioButton leadBoardAppearNo;
     private Spinner selectMajor;
     private EditText inputUserName;
+    private EditText inputBannerId;
     private Button mSaveButton;
     private Button mShowButton;
+    private DB_Adapter dbAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +30,13 @@ public class Prefs extends Activity implements OnClickListener {
         selectMajor = (Spinner) findViewById(R.id.spinnerMajor);
         leadBoardAppearYes = (RadioButton) findViewById(R.id.radioLeadBoardAppearYes);
         leadBoardAppearNo = (RadioButton) findViewById(R.id.radioLeadBoardAppearNo);
-        inputUserName = (EditText) findViewById(R.id.pref_editText);
+        inputUserName = (EditText) findViewById(R.id.pref_editName);
+        inputBannerId = (EditText) findViewById(R.id.pref_editBannerId);
         mSaveButton = (Button) findViewById(R.id.save_button);
         mShowButton = (Button) findViewById(R.id.bSubTopicList);
         mSaveButton.setOnClickListener(this);
         mShowButton.setOnClickListener(this);
+        dbAdapter = new DB_Adapter(this);
         loadPreferences();
     }
 
@@ -64,19 +68,24 @@ public class Prefs extends Activity implements OnClickListener {
         SharedPreferences sharedPreferences = getPreferences(MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("prefName", inputUserName.getText().toString());
+        editor.putString("prefBannerId", inputBannerId.getText().toString());
         editor.putBoolean("prefAppearYes", leadBoardAppearYes.isChecked());
         editor.putBoolean("prefAppearNo", leadBoardAppearNo.isChecked());
         editor.putInt("prefMajor", selectMajor.getSelectedItemPosition());
+        dbAdapter.updateStudent(inputBannerId.getText().toString(),
+                inputUserName.getText().toString());
         editor.commit();
     }
 
     private void loadPreferences(){
         SharedPreferences sharedPreferences = getPreferences(MODE_PRIVATE);
         String prefName = sharedPreferences.getString("prefName", "");
+        String prefBannerId = sharedPreferences.getString("prefBannerId", "");
         Boolean prefAppearYes = sharedPreferences.getBoolean("prefAppearYes", true);
         Boolean prefAppearNo = sharedPreferences.getBoolean("prefAppearNo",false);
         int majorPos = sharedPreferences.getInt("prefMajor",0);
         inputUserName.setText(prefName);
+        inputBannerId.setText(prefBannerId);
         leadBoardAppearYes.setChecked(prefAppearYes);
         leadBoardAppearNo.setChecked(prefAppearNo);
         selectMajor.setSelection(majorPos);

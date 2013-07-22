@@ -22,7 +22,7 @@ public class Splash extends Activity {
                     e.printStackTrace();
                 } finally {
                     Intent openStartingPoint =
-                            new Intent("ca.dal.cs.csci4126.quizboard.STARTINGPOINT");
+                            new Intent("ca.dal.cs.csci4126.quizboard.LOGIN");
                             //new Intent("ca.dal.cs.csci4126.quizboard.SETTINGS");
                     startActivity(openStartingPoint);
                 }
