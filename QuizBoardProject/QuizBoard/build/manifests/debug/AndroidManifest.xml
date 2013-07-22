@@ -24,20 +24,18 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:label="@string/app_name" android:name="ca.dal.cs.csci4126.quizboard.SubQuestionTypes">
+
+        <activity android:label="Login to your Account" android:name="ca.dal.cs.csci4126.quizboard.LoginActivity">
             <intent-filter>
-                <action android:name="ca.dal.cs.csci4126.quizboard.SUBQUEST"/>
+                <action android:name="ca.dal.cs.csci4126.quizboard.LOGIN"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:label="@string/title_activity_login" android:name="ca.dal.cs.csci4126.quizboard.LoginActivity">
-            <intent-filter>
-                <action android:name="ca.dal.cs.csci4126.quizboard.LOGIN"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-           <!-- android:windowSoftInputMode="adjustResize|stateVisible" >-->
-        </activity>
+
+        <!--  Entry for RegisterActivity.class -->
+        <activity android:label="Register New Account" android:name="ca.dal.cs.csci4126.quizboard.RegisterActivity"/>
+
     </application>
 
 </manifest>
