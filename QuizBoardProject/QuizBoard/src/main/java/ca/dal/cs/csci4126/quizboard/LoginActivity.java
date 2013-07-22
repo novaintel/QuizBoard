@@ -206,7 +206,6 @@ public class LoginActivity extends Activity {
                     return pieces[1].equals(mPassword);
                 }
             }
-
             // TODO: register the new account here.
             return true;
         }

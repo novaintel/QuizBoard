@@ -12,14 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76c1b70c-550c-4434-8ebc-3fe58d8508be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/source/buildConfig/debug/ca/dal/cs/csci4126/quizboard/BuildConfig.java" afterPath="$PROJECT_DIR$/QuizBoard/build/source/buildConfig/debug/ca/dal/cs/csci4126/quizboard/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/LoginActivity.java" afterPath="$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-large/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-large/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/QuizBoard/build/res/all/debug/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QuizBoard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,14 +125,14 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="51" selection-start="7672" selection-end="7672" vertical-scroll-proportion="0.8921283" vertical-offset="2499" max-vertical-offset="3672">
+            <state line="207" column="13" selection-start="7619" selection-end="7619" vertical-scroll-proportion="0.76822156" vertical-offset="2550" max-vertical-offset="3655">
               <folding>
                 <element signature="e#3661#3701#0" expanded="true" />
                 <element signature="e#3850#3892#0" expanded="true" />
                 <element signature="e#4089#4129#0" expanded="true" />
                 <element signature="e#4271#4310#0" expanded="true" />
                 <element signature="e#4745#4779#0" expanded="true" />
-                <element signature="e#8141#8185#0" expanded="true" />
+                <element signature="e#8140#8184#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -830,14 +823,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QuizBoard/src/main/java/ca/dal/cs/csci4126/quizboard/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="51" selection-start="7672" selection-end="7672" vertical-scroll-proportion="0.8921283" vertical-offset="2499" max-vertical-offset="3672">
+        <state line="207" column="13" selection-start="7619" selection-end="7619" vertical-scroll-proportion="0.76822156" vertical-offset="2550" max-vertical-offset="3655">
           <folding>
             <element signature="e#3661#3701#0" expanded="true" />
             <element signature="e#3850#3892#0" expanded="true" />
             <element signature="e#4089#4129#0" expanded="true" />
             <element signature="e#4271#4310#0" expanded="true" />
             <element signature="e#4745#4779#0" expanded="true" />
-            <element signature="e#8141#8185#0" expanded="true" />
+            <element signature="e#8140#8184#0" expanded="true" />
           </folding>
         </state>
       </provider>
