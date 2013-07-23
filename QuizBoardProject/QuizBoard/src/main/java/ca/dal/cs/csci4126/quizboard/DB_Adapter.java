@@ -22,6 +22,7 @@ public class DB_Adapter {
 
     public static final String KEY_bannerId = "banner_Number";
     public static final String KEY_studentName = "student_name";
+    public static final String Key_password = "use_password";
 
     public static final String KEY_quesId = "que_id";
     public static final String KEY_departmentId = "department_ID";
@@ -120,6 +121,22 @@ public class DB_Adapter {
         initialValues.put(KEY_choice4, solution4);
         initialValues.put(KEY_answer, answer);
         return db.insert(DATABASE_QUESTION_TABLE, null, initialValues);
+    }
+
+    public boolean logUserIn(String bannerId, String password){
+        String sql = "SELECT * FROM Student WHERE banner_Number = '" + bannerId + "'";
+        Cursor data = db.rawQuery(sql, null);
+        if (data.moveToFirst()) {
+            sql = "SELECT * FROM Student WHERE Key_password = '" + password + "'";
+            data = db.rawQuery(sql, null);
+            if (data.moveToFirst()) {
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return false;
+        }
     }
 
     //---deletes a particular question---
