@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values-large/styles.xml -->
+    <!-- From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values-large/styles.xml -->
     <style name="LoginFormContainer">
         <item name="android:layout_width">400dp</item>
         <item name="android:layout_height">wrap_content</item>

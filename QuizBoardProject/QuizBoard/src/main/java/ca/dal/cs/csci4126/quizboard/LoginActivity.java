@@ -12,6 +12,7 @@ import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -52,6 +53,7 @@ public class LoginActivity extends Activity {
     // UI references.
     private EditText mBannerIdView;
     private EditText mPasswordView;
+    private EditText mUserNameView;
     private View mLoginFormView;
     private View mLoginStatusView;
     private TextView mLoginStatusMessageView;
@@ -206,10 +208,12 @@ public class LoginActivity extends Activity {
                 return false;
             }
 
-            return dbAdapter.logUserIn(mBannerId, mPassword);
+            if(dbAdapter.logUserIn(mBannerId, mPassword)){
+                return true;
+            }
 
 
-           /* for (String credential : DUMMY_CREDENTIALS) {
+            for (String credential : DUMMY_CREDENTIALS) {
                 String[] pieces = credential.split(":");
                 if (pieces[0].equals(mBannerId)) {
                     // Account exists, return true if the password matches.
@@ -217,7 +221,10 @@ public class LoginActivity extends Activity {
                 }
             }
             // TODO: register the new account here.
-            return true;*/
+
+
+
+            return true;
         }
 
         @Override

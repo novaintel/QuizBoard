@@ -54,6 +54,15 @@
                 android:imeActionId="@+id/login"
                 android:imeOptions="actionUnspecified" />
 
+            <EditText
+                    android:id="@+id/userName"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:inputType="text"/>
+
             <Button android:id="@+id/sign_in_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,4 +76,4 @@
 
     </ScrollView>
 </merge>
-<!-- From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/layout/activity_login.xml -->
+<!-- From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/layout/activity_login.xml -->
