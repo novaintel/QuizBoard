@@ -33,10 +33,10 @@
     <!-- From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings_activity_login.xml -->
     <string name="error_field_required">This field is required</string>
     <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_BannerId">This Banner Id is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="login_progress_signing_in">Signing in…</string>
-    <string name="prompt_email">Email</string>
+    <string name="prompt_banner">Dalhousie Banner ID</string>
     <string name="prompt_password">Password</string>
     <!-- From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings.xml -->
     <string name="selectMajorSpinner">Select a Major</string>

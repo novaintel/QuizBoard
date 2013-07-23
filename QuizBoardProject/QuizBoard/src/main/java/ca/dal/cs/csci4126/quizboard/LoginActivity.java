@@ -15,37 +15,42 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
+import ca.dal.cs.csci4126.quizboard.DB_Adapter;
 
 /**
  * Activity which displays a login screen to the user, offering registration as
  * well.
  */
+
 public class LoginActivity extends Activity {
     /**
      * A dummy authentication store containing known user names and passwords.
      * TODO: remove after connecting to a real authentication system.
      */
+
+    private DB_Adapter dbAdapter;
+
     private static final String[] DUMMY_CREDENTIALS = new String[]{
             "foo@example.com:hello",
             "bar@example.com:world"
     };
 
     /**
-     * The default email to populate the email field with.
+     * The default BannerId to populate the BannerId field with.
      */
-    public static final String EXTRA_EMAIL = "com.example.android.authenticatordemo.extra.EMAIL";
+    public static final String EXTRA_BannerId = "com.example.android.authenticatordemo.extra.BannerId";
 
     /**
      * Keep track of the login task to ensure we can cancel it if requested.
      */
     private UserLoginTask mAuthTask = null;
 
-    // Values for email and password at the time of the login attempt.
-    private String mEmail;
+    // Values for BannerId and password at the time of the login attempt.
+    private String mBannerId;
     private String mPassword;
 
     // UI references.
-    private EditText mEmailView;
+    private EditText mBannerIdView;
     private EditText mPasswordView;
     private View mLoginFormView;
     private View mLoginStatusView;
@@ -55,12 +60,14 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        dbAdapter = new DB_Adapter(this);
+
         setContentView(R.layout.activity_login);
 
         // Set up the login form.
-        mEmail = getIntent().getStringExtra(EXTRA_EMAIL);
-        mEmailView = (EditText) findViewById(R.id.email);
-        mEmailView.setText(mEmail);
+        mBannerId = getIntent().getStringExtra(EXTRA_BannerId);
+        mBannerIdView = (EditText) findViewById(R.id.bannerId);
+        mBannerIdView.setText(mBannerId);
 
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -88,7 +95,7 @@ public class LoginActivity extends Activity {
 
     /**
      * Attempts to sign in or register the account specified by the login form.
-     * If there are form errors (invalid email, missing fields, etc.), the
+     * If there are form errors (invalid BannerId, missing fields, etc.), the
      * errors are presented and no actual login attempt is made.
      */
     public void attemptLogin() {
@@ -97,11 +104,11 @@ public class LoginActivity extends Activity {
         }
 
         // Reset errors.
-        mEmailView.setError(null);
+        mBannerIdView.setError(null);
         mPasswordView.setError(null);
 
         // Store values at the time of the login attempt.
-        mEmail = mEmailView.getText().toString();
+        mBannerId = mBannerIdView.getText().toString();
         mPassword = mPasswordView.getText().toString();
 
         boolean cancel = false;
@@ -118,14 +125,14 @@ public class LoginActivity extends Activity {
             cancel = true;
         }
 
-        // Check for a valid email address.
-        if (TextUtils.isEmpty(mEmail)) {
-            mEmailView.setError(getString(R.string.error_field_required));
-            focusView = mEmailView;
+        // Check for a valid BannerId address.
+        if (TextUtils.isEmpty(mBannerId)) {
+            mBannerIdView.setError(getString(R.string.error_field_required));
+            focusView = mBannerIdView;
             cancel = true;
-        } else if (!mEmail.contains("@")) {
-            mEmailView.setError(getString(R.string.error_invalid_email));
-            focusView = mEmailView;
+        } else if (!mBannerId.contains("@")) {
+            mBannerIdView.setError(getString(R.string.error_invalid_BannerId));
+            focusView = mBannerIdView;
             cancel = true;
         }
 
@@ -199,15 +206,18 @@ public class LoginActivity extends Activity {
                 return false;
             }
 
-            for (String credential : DUMMY_CREDENTIALS) {
+            return dbAdapter.logUserIn(mBannerId, mPassword);
+
+
+           /* for (String credential : DUMMY_CREDENTIALS) {
                 String[] pieces = credential.split(":");
-                if (pieces[0].equals(mEmail)) {
+                if (pieces[0].equals(mBannerId)) {
                     // Account exists, return true if the password matches.
                     return pieces[1].equals(mPassword);
                 }
             }
             // TODO: register the new account here.
-            return true;
+            return true;*/
         }
 
         @Override

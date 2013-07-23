@@ -9,6 +9,8 @@ import android.os.Bundle;
  */
 public class Splash extends Activity {
 
+    private DB_Adapter dbAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

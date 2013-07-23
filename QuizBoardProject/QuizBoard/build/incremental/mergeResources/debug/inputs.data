@@ -1,7 +1,7 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1374528175680 4974 4cb6fc0d68636bc84320b9208e2ef59dc0b511de C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\prefs.xml
+1374539922031 4967 7bc1e82dbc063b49985b5aad2d66c26079f178db C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\prefs.xml
 1374528175690 672 735330c789d1411feab17746d3f9050f7942b79e C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\array.xml
 1374528175689 393 57bf76bb0f2df417c079be64295195b4d9b92f87 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values-v14\styles.xml
 1374528175674 150106 877a5ce266d9fcdbe30846b778324dca5a6c73f9 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\drawable-xhdpi\splash_background.png
@@ -14,7 +14,7 @@
 1374528175694 844 e85fc1555589228c142644b537b4decfea953163 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\xml\prefs.xml
 1374528175684 250 82d56e611a63ce2e3a53bfe9a5f3cf3e4733cdc6 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\menu\main.xml
 1374528175679 517 d9a426025a9c2542fe7a7b60efac13d001728593 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\activity_main.xml
-1374528175678 2791 935fb92e085a89692826d2a92f8667d3949977ee C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\activity_login.xml
+1374540330910 2795 32f02ee1ad3f77a7185e2c1396a524051282cd85 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\activity_login.xml
 1374528175682 2709 c859b6c6bfb409e7d6596a00560142f03f6b6697 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\subquestiontypes.xml
 1374528175677 150106 877a5ce266d9fcdbe30846b778324dca5a6c73f9 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\drawable-xxhdpi\splash_background.png
 1374528175693 972 ad127003e64c967688b619f0a0844665334879cb C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\styles.xml
@@ -23,7 +23,7 @@
 1374528175683 225 11c6a08b3f27dc56b2c0f9b9dd247c35a2746a56 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\menu\login.xml
 1374528175691 237 53f63ca73e3fb58f96480ff27f4c983b31349186 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\strings.xml
 1374528175672 11194 b7f022f7cb3470f6d742356b2f4140f06a85cc21 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\drawable-xhdpi\ic_launcher.png
-1374528175692 837 dc9a1cba1b7f771473ffe6f1d955c1c828342a26 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\strings_activity_login.xml
+1374541223120 851 f1169d84b91de3dadd8d728f729f0eafd2de0e0a C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\strings_activity_login.xml
 1374528175685 313 fb36c00b0d81472971d1632d65cb652763843503 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values-large\styles.xml
 1374528175670 150106 877a5ce266d9fcdbe30846b778324dca5a6c73f9 C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\drawable-hdpi\splash_background.png
 1374528175688 335 d298d59d1f16def33014064de655cc62a439327d C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values-v11\styles.xml

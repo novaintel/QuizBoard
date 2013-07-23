@@ -34,21 +34,21 @@ public final class R {
         public static final int bSubQuestCancel=0x7f0a001d;
         public static final int bSubQuestSubmit=0x7f0a001c;
         public static final int bSubTopicList=0x7f0a0012;
+        public static final int bannerId=0x7f0a0003;
         public static final int cbChemistry=0x7f0a0019;
         public static final int cbComputerScience=0x7f0a001b;
         public static final int cbElectricalEngineering=0x7f0a001a;
         public static final int cbEnglish=0x7f0a0016;
         public static final int cbMathematics=0x7f0a0018;
         public static final int cbPhysics=0x7f0a0017;
-        public static final int email=0x7f0a0003;
         public static final int login=0x7f0a0005;
         public static final int login_form=0x7f0a0002;
         public static final int login_status=0x7f0a0000;
         public static final int login_status_message=0x7f0a0001;
         public static final int password=0x7f0a0004;
-        public static final int pref_BannerId=0x7f0a000f;
-        public static final int pref_editBannerId=0x7f0a0010;
+        public static final int pref_PasswordText=0x7f0a000f;
         public static final int pref_editName=0x7f0a000e;
+        public static final int pref_editPassword=0x7f0a0010;
         public static final int pref_editText=0x7f0a0015;
         public static final int pref_textView=0x7f0a000d;
         public static final int radioLeadBoardAppearGroup=0x7f0a000a;
@@ -90,10 +90,10 @@ public final class R {
          */
         public static final int error_field_required=0x7f070005;
         public static final int error_incorrect_password=0x7f070006;
-        public static final int error_invalid_email=0x7f070007;
+        public static final int error_invalid_BannerId=0x7f070007;
         public static final int error_invalid_password=0x7f070008;
         public static final int login_progress_signing_in=0x7f070009;
-        public static final int prompt_email=0x7f07000a;
+        public static final int prompt_banner=0x7f07000a;
         public static final int prompt_password=0x7f07000b;
         /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings.xml 
          */

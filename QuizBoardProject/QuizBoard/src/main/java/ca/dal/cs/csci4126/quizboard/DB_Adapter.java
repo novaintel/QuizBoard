@@ -21,7 +21,7 @@ public class DB_Adapter {
     private static final String DATABASE_FACULTY_TABLE = "Faculty";
 
     public static final String KEY_bannerId = "banner_Number";
-    public static final String KEY_studentName = "student_name";
+    public static final String KEY_studentUName = "student_user_name";
     public static final String Key_password = "use_password";
 
     public static final String KEY_quesId = "que_id";
@@ -56,7 +56,8 @@ public class DB_Adapter {
 
     private static final String DATABASE_CREATE_STUDENT =
             "create table Student (banner_Number text primary key UNIQUE, "
-                    + "student_name text not null, student_points integer not null DEFAULT '0');";
+                    + "student_user_name text not null, student_password password text not null " +
+                    " student_points integer not null DEFAULT '0');";
 
     private final Context context;
 
@@ -111,7 +112,8 @@ public class DB_Adapter {
         DBHelper.close();
     }
 
-    public long insertQuestion(String question, String solution1, String solution2, String solution3, String solution4, String answer)
+    public long insertQuestion(String question, String solution1, String solution2,
+                               String solution3, String solution4, String answer)
     {
         ContentValues initialValues = new ContentValues();
         initialValues.put(KEY_question, question);
@@ -153,12 +155,27 @@ public class DB_Adapter {
                 "=" + bannerNumber, null) > 0;
     }
 
-    public boolean updateStudent(String bannerNumber, String userName)
+    public void newStudent(String bannerId, String userName, String password)
+    {
+        String sql = "SELECT * FROM Student WHERE banner_Number = '" + bannerId + "'";
+        Cursor data = db.rawQuery(sql, null);
+        if (data.moveToFirst()) {
+            return;
+        } else {
+            ContentValues args = new ContentValues();
+            args.put(Key_password, password);
+            args.put(KEY_studentUName, userName);
+            args.put(KEY_bannerId, bannerId);
+            db.insert(DATABASE_STUDENT_TABLE, null, args);
+        }
+    }
+
+    public boolean updateStudent(String userName, String password)
     {
         ContentValues args = new ContentValues();
-        args.put(KEY_bannerId, bannerNumber);
-        args.put(KEY_studentName, userName);
+        args.put(Key_password, password);
+        args.put(KEY_studentUName, userName);
         return db.update(DATABASE_STUDENT_TABLE, args,
-                KEY_bannerId + "=" + bannerNumber, null) > 0;
+                KEY_studentUName + "=" + userName, null) > 0;
     }
 }
