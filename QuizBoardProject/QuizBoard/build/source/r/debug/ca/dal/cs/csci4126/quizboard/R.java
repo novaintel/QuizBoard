@@ -9,7 +9,7 @@ package ca.dal.cs.csci4126.quizboard;
 
 public final class R {
     public static final class array {
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/array.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/array.xml 
          */
         public static final int lValues=0x7f050000;
         public static final int list=0x7f050001;
@@ -17,8 +17,8 @@ public final class R {
     public static final class attr {
     }
     public static final class dimen {
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/dimens.xml 
- From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values-sw720dp-land/dimens.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/dimens.xml 
+ From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values-sw720dp-land/dimens.xml 
          */
         public static final int activity_horizontal_margin=0x7f060000;
         public static final int activity_vertical_margin=0x7f060001;
@@ -74,20 +74,20 @@ public final class R {
         public static final int main=0x7f090001;
     }
     public static final class string {
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/strings_activity_login.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings_activity_login.xml 
          */
         public static final int action_forgot_password=0x7f070000;
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/strings.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings.xml 
          */
         public static final int action_settings=0x7f070001;
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/strings_activity_login.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings_activity_login.xml 
          */
         public static final int action_sign_in_register=0x7f070002;
         public static final int action_sign_in_short=0x7f070003;
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/strings.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings.xml 
          */
         public static final int app_name=0x7f070004;
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/strings_activity_login.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings_activity_login.xml 
          */
         public static final int error_field_required=0x7f070005;
         public static final int error_incorrect_password=0x7f070006;
@@ -96,30 +96,30 @@ public final class R {
         public static final int login_progress_signing_in=0x7f070009;
         public static final int prompt_banner=0x7f07000a;
         public static final int prompt_password=0x7f07000b;
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/strings.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings.xml 
          */
         public static final int selectMajorSpinner=0x7f07000c;
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/strings_activity_login.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/strings_activity_login.xml 
          */
         public static final int title_activity_login=0x7f07000d;
     }
     public static final class style {
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values/styles.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values/styles.xml 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values-v11/styles.xml 
+ From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values-v11/styles.xml 
  API 11 theme customizations can go here. 
- From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values-v14/styles.xml 
+ From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f080000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f080001;
-        /**  From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/values-large/styles.xml 
+        /**  From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/values-large/styles.xml 
          */
         public static final int LoginFormContainer=0x7f080002;
     }

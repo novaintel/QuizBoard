@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/assets" />
+        <source path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/debug/assets" />
+        <source path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\debug\assets" />
     </dataSet>
 
 </merger>

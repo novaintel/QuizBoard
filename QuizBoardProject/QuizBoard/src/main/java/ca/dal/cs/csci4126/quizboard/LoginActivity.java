@@ -31,15 +31,10 @@ public class LoginActivity extends Activity {
 
     private DB_Adapter dbAdapter;
 
-    private static final String[] DUMMY_CREDENTIALS = new String[]{
+/*    private static final String[] DUMMY_CREDENTIALS = new String[]{
             "foo@example.com:hello",
             "bar@example.com:world"
-    };
-
-    /**
-     * The default BannerId to populate the BannerId field with.
-     */
-    public static final String EXTRA_BannerId = "com.example.android.authenticatordemo.extra.BannerId";
+    };*/
 
     /**
      * Keep track of the login task to ensure we can cancel it if requested.
@@ -67,7 +62,6 @@ public class LoginActivity extends Activity {
         setContentView(R.layout.activity_login);
 
         // Set up the login form.
-        mBannerId = getIntent().getStringExtra(EXTRA_BannerId);
         mBannerIdView = (EditText) findViewById(R.id.bannerId);
         mBannerIdView.setText(mBannerId);
 
@@ -213,13 +207,13 @@ public class LoginActivity extends Activity {
             }
 
 
-            for (String credential : DUMMY_CREDENTIALS) {
+          /*  for (String credential : DUMMY_CREDENTIALS) {
                 String[] pieces = credential.split(":");
                 if (pieces[0].equals(mBannerId)) {
                     // Account exists, return true if the password matches.
                     return pieces[1].equals(mPassword);
                 }
-            }
+            }*/
             // TODO: register the new account here.
 
 

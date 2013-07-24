@@ -129,7 +129,7 @@ public class DB_Adapter {
         String sql = "SELECT * FROM Student WHERE banner_Number = '" + bannerId + "'";
         Cursor data = db.rawQuery(sql, null);
         if (data.moveToFirst()) {
-            sql = "SELECT * FROM Student WHERE Key_password = '" + password + "'";
+            sql = "SELECT Key_password FROM Student WHERE banner_Number = '" + bannerId + "'";
             data = db.rawQuery(sql, null);
             if (data.moveToFirst()) {
                 return true;

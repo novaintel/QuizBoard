@@ -70,4 +70,4 @@
                 android:text="Cancel"
                 android:id="@+id/bSubQuestCancel"/>
     </LinearLayout>
-</LinearLayout><!-- From: file:/home/james/project/csci4126/QuizBoardProject/QuizBoard/src/main/res/layout/subquestiontypes.xml -->
+</LinearLayout><!-- From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/layout/subquestiontypes.xml -->
