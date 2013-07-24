@@ -33,7 +33,7 @@
         </activity>
         <activity android:label="@string/title_activity_login" android:name="ca.dal.cs.csci4126.quizboard.LoginActivity">
             <intent-filter>
-                <action android:name="ca.dal.cs.csci4126.quizboard.LOGIN23"/>
+                <action android:name="ca.dal.cs.csci4126.quizboard.LOGIN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
            <!-- android:windowSoftInputMode="adjustResize|stateVisible" >-->
