@@ -14,6 +14,14 @@ repositories {
 
 dependencies {
     compile 'com.android.support:support-v4:13.0.+'
+    compile 'libs/commons-httpclient-3.1.jar'
+    compile 'libs/httpclient-4.2.2.jar'
+    compile 'libs/httpcore-4.2.2.jar'
+    compile 'libs/httpmime-4.2.2.jar'
+    compile 'libs/jackson-core-2.1.0.jar'
+    compile 'libs/jackson-core-asl-1.9.9.jar'
+    compile 'libs/jackson-mapper-asl-1.9.9.jar'
+    compile 'libs/org.json.jar'
 }
 
 android {

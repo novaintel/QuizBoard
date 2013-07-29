@@ -10,6 +10,11 @@
                 type="drawable" />
             <file
                 name="ic_launcher"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\drawable-ldpi\ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
                 path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\drawable-mdpi\ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
@@ -24,15 +29,74 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
-                name="activity_main"
-                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\activity_main.xml"
+                name="dashboard"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\dashboard.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                name="main"
-                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\menu\main.xml"
+                name="login"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\login.xml"
                 qualifiers=""
-                type="menu" />
+                type="layout" />
+            <file
+                name="prefs"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\prefs.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="register"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\register.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="subquestiontypes"
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\layout\subquestiontypes.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\array.xml"
+                qualifiers="" >
+                <string-array name="list" >
+                    <item>
+English Department
+                    </item>
+                    <item>
+Physics Department
+                    </item>
+                    <item>
+Mathematics Department
+                    </item>
+                    <item>
+Chemistry Department
+                    </item>
+                    <item>
+Electrical Engineering Department
+                    </item>
+                    <item>
+Computer Science Department
+                    </item>
+                </string-array>
+                <string-array name="lValues" >
+                    <item>
+english
+                    </item>
+                    <item>
+physics
+                    </item>
+                    <item>
+mathematics
+                    </item>
+                    <item>
+chemistry
+                    </item>
+                    <item>
+electrical_engineering
+                    </item>
+                    <item>
+computer_science
+                    </item>
+                </string-array>
+            </file>
             <file
                 path="C:\Users\James\Documents\projects\csci4126\QuizBoard\QuizBoardProject\QuizBoard\src\main\res\values\dimens.xml"
                 qualifiers="" >
@@ -48,7 +112,7 @@
                 </string>
                 <string name="app_name" >Quiz Board
                 </string>
-                <string name="hello_world" >Hello world!
+                <string name="selectMajorSpinner" >Select a Major
                 </string>
             </file>
             <file
@@ -64,6 +128,18 @@
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
                     -->
+                </style>
+
+                <style name="LoginFormContainer" >
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:padding">
+16dp
+                    </item>
                 </style>
 
                 <style
