@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list">
+        <item>English Department</item>
+        <item>Physics Department</item>
+        <item>Mathematics Department</item>
+        <item>Chemistry Department</item>
+        <item>Electrical Engineering Department</item>
+        <item>Computer Science Department</item>
+
+    </string-array>
+    <string-array name="lValues">
+        <item>english</item>
+        <item>physics</item>
+        <item>mathematics</item>
+        <item>chemistry</item>
+        <item>electrical_engineering</item>
+        <item>computer_science</item>
+
+    </string-array>
+
+
+</resources>

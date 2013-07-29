@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_forgot_password"
+        android:title="@string/action_forgot_password"
+        android:showAsAction="never" />
+</menu>
+<!-- From: file:/C:/Users/James/Documents/projects/csci4126/QuizBoard/QuizBoardProject/QuizBoard/src/main/res/menu/login.xml -->
